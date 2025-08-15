@@ -1,0 +1,16 @@
+package com.bookingmanagement.user_service.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class RegisterDto {
+
+    private String name;
+    private String email;
+    private String password;
+
+}
